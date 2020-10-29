@@ -1,0 +1,63 @@
+.topbar_parent{
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+.topbar{
+  display : flex ;
+  margin-bottom : 30px ;
+  margin : 20px ;
+  }
+  
+.topbar__1{
+    display : flex ;
+    margin-right : 150px ;
+  }
+
+
+.settingbox{
+  margin : 10px  20px ;
+  /* padding: 5px; */
+  display : flex;
+  border : 1px  solid  rgb (138 , 120 , 120 );
+  border-radius : 15px ;
+}
+.reply {
+    width: 15px;
+    height: 15px;
+  }
+.settingbox_column{
+  border: 0px solid rgba(0,0,0,0.1);
+  margin : 0  20px ;
+ 
+  padding : 0  10px  0  0 ;
+  height : 35px ;
+  display : flex ;
+    /* border-radius: 10px; */
+  }
+.settingbox: first-child {
+  margin-left : 10px ;
+  display : flex ;
+  width : 335px ;
+  border-top-left-radius : 10px ;
+  border-bottom-left-radius : 10px ;
+  background-color:black;
+}
+
+.settingbox:nth-child(2){
+  display : flex ;
+  width : 103px ;
+  }
+.settingbox:nth-child(3) {
+  display : flex ;
+  width : 325px ;
+  }
+.settingbox:nth-child(4){
+  width: 82px;
+}
+.settingbox:nth-child(5){
+  width: 255px;
+}
+body{
+  background-color:khaki ;
+}
